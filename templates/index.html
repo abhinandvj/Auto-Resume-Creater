@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="shortcut icon" href="/static/img/techis-logo.png" type="image/x-icon">
+    <title>Resume</title>
+</head>
+<body>
+    <!-- <h1>Portfolio</h1> -->
+    <!-- <img src= "{{ ab.image.url }}" alt="" class="prf"> -->
+<div class="name">
+
+    <p class="fullname">{{ ab.name1 }} {{ ab.name2 }}</p> 
+    <p class="designation"> {{ ab.work1 }} </p>
+    <div class="rig">
+        <p class="ph"> +{{ ab.code }} {{ ab.phone }} <br> <a href="">{{ ab.email }}</a> <br> {{ ab.address1 }},{{ ab.address2 }},{{ ab.address3 }} , {{ ab.address4 }}</p>
+    </div>
+</div>
+<hr>
+    <p class="skills">Technical Skills </p>
+    <p class="skl"> <span>Strong</span> | JavaScript, React (Router, Hooks), RESTful APIs, HTML/CSS, Git/GitHub, CLI, SQL (PostgreSQL) <br>
+        <span>Experienced </span> | React, Redux, Python, Django, JQuery, Heroku, CI/CD</p>
+
+    <p class="skills">Professional Experience</p>
+
+    <p class="as"> <span class="co">{{ ab.company }} | </span> {{ ab.work1 }} <br> 0 - {{ ab.experience }} years</p>
+
+
+    
+</body>
+</html>
