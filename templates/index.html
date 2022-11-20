@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/static/css/style.css">
-    <link rel="shortcut icon" href="/static/img/techis-logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/static/img/logo.png" type="image/x-icon">
     <title>Resume</title>
 </head>
-<body>
+<body class="index">
     <!-- <h1>Portfolio</h1> -->
     <!-- <img src= "{{ ab.image.url }}" alt="" class="prf"> -->
 <div class="name">
@@ -26,7 +26,31 @@
 
     <p class="skills">Professional Experience</p>
 
-    <p class="as"> <span class="co">{{ ab.company }} | </span> {{ ab.work1 }} <br> 0 - {{ ab.experience }} years</p>
+    <p class="as"> <span class="co">{{ ab.company }} | </span>  {{ ab.ocity }} - {{ ab.ostate }} <br> </p>
+    <p class="ds"> {{ ab.designation }} | ({{ ab.date }} - {{ ab.dateend }}) <br> </p> 
+    
+        <li>{{ ab.desca }}</li>
+        <li>{{ ab.descb }}</li>
+        <li>{{ ab.descc }}</li>
+        <li>{{ ab.descd }}</li>
+
+    <p class="as"> <span class="co">{{ ab.company2 }} | </span>  {{ ab.ocity2 }} - {{ ab.ostate3 }} <br> </p>
+    <p class="ds"> {{ ab.designation2 }} | ({{ ab.date2 }} - {{ ab.dateend2 }}) <br> </p> 
+    
+        <li>{{ ab.desca2 }}</li>
+        <li>{{ ab.descb2 }}</li>
+        <li>{{ ab.descc2 }}</li>
+        <li>{{ ab.descd2 }}</li>
+
+        <p class="as"> <span class="co">{{ ab.company3 }} | </span>  {{ ab.ocity3 }} - {{ ab.ostate3 }} <br> </p>
+        <p class="ds"> {{ ab.designation3 }} | ({{ ab.date3 }} - {{ ab.dateend3 }}) <br> </p> 
+        
+            <li>{{ ab.desca3 }}</li>
+            <li>{{ ab.descb3 }}</li>
+            <li>{{ ab.descc3 }}</li>
+            <li>{{ ab.descd3 }}</li>
+        
+    
 
 
     
